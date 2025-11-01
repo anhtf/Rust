@@ -1,0 +1,8 @@
+[build]
+target = "thumbv7m-none-eabi"
+
+# This section is for the specific embedded target
+[target.thumbv7m-none-eabi]
+rustflags = [
+  "-C", "link-arg=-Tmemory.x",
+]

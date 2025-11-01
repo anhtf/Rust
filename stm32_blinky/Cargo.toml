@@ -1,0 +1,10 @@
+[package]
+name = "stm32_blinky"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+panic-halt = "0.2.0"
+stm32f1xx-hal = { version = "0.10.0", features = ["rt", "stm32f103", "medium"] }
