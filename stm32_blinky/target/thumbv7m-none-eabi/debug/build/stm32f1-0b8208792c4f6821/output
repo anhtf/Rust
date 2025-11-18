@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/anhtdh/Desktop/RUST/stm32_blinky/target/thumbv7m-none-eabi/debug/build/stm32f1-0b8208792c4f6821/out
+cargo:rerun-if-changed=src/stm32f103/device.x
+cargo:rerun-if-changed=build.rs
